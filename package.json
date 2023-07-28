@@ -4,7 +4,6 @@
     "author": {
         "name": "Achille Lacoin"
     },
-    "type": "module",
     "repository": {
         "type": "git",
         "url": "https://github.com/pomdtr/valtown-zod-client"
