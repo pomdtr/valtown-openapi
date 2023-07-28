@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "generate-client": "openapi-zod-client https://www.val.town/docs/openapi.yaml -o index.ts"
+    },
+    "devDependencies": {
+        "openapi-zod-client": "^1.10.0"
+    }
+}
