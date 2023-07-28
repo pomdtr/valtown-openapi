@@ -1,6 +1,6 @@
 # Val Town Zod Client
 
-This package is automatically generated from Val Town [OpenApi Spec](https://www.val.town/docs/openapi.yaml) -o index.yaml) using [openapi-zod-client](https://github.com/astahmer/openapi-zod-client/).
+This package is automatically generated from Val Town [OpenApi Spec](https://www.val.town/docs/openapi.yaml) using [openapi-zod-client](https://github.com/astahmer/openapi-zod-client/).
 
 ## Usage
 
