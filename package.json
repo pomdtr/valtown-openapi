@@ -1,8 +1,24 @@
 {
+    "name": "valtown-zod-client",
+    "version": "0.0.2",
+    "author": {
+        "name": "Achille Lacoin"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pomdtr/valtown-zod-client"
+    },
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "main": "dist/index.js",
     "scripts": {
-        "generate-client": "openapi-zod-client https://www.val.town/docs/openapi.yaml -o index.ts"
+        "generate-client": "openapi-zod-client https://www.val.town/docs/openapi.yaml -o index.ts",
+        "build": "rm -rf dist && tsc --build"
     },
     "devDependencies": {
-        "openapi-zod-client": "^1.10.0"
+        "openapi-zod-client": "^1.10.0",
+        "typescript": "^5.1.6"
     }
 }
