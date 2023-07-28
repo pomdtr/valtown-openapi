@@ -4,6 +4,7 @@
     "author": {
         "name": "Achille Lacoin"
     },
+    "type": "module",
     "repository": {
         "type": "git",
         "url": "https://github.com/pomdtr/valtown-zod-client"
@@ -20,5 +21,9 @@
     "devDependencies": {
         "openapi-zod-client": "^1.10.0",
         "typescript": "^5.1.6"
+    },
+    "dependencies": {
+        "@zodios/core": "^10.9.2",
+        "zod": "^3.21.4"
     }
 }
