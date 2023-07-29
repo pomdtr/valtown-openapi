@@ -1,4 +1,4 @@
-export default {
+declare const openapi: {
   "openapi": "3.1.0",
   "info": {
     "title": "Val Town API",
@@ -1348,4 +1348,4 @@ export default {
       }
     }
   }
-} as const
+}; export default openapi;

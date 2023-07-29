@@ -8,4 +8,4 @@ jobs:
         with:
           node-version: "18"
       - run: npm ci
-      - run: npm run generate-client
+      - run: npm run build

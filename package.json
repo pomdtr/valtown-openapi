@@ -1,0 +1,23 @@
+{
+  "name": "valtown-openapi",
+  "type": "module",
+  "types": "openapi.d.ts",
+  "version": "0.0.2",
+  "license": "MIT",
+  "files": [
+    "index.d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pomdtr/valtown-openapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pomdtr/valtown-openapi/issues"
+  },
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "yaml": "^2.3.1"
+  }
+}
