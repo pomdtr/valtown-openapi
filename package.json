@@ -15,7 +15,7 @@
     "url": "https://github.com/pomdtr/valtown-openapi/issues"
   },
   "scripts": {
-    "build": "node build.mjs"
+    "build": "node build.js"
   },
   "devDependencies": {
     "yaml": "^2.3.1"
