@@ -2,7 +2,7 @@
   "name": "valtown-openapi",
   "type": "module",
   "types": "openapi.d.ts",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "license": "MIT",
   "files": [
     "index.d.ts"
